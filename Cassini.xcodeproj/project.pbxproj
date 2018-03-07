@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0416E0D020503BC800CF1041 /* CassiniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416E0CF20503BC800CF1041 /* CassiniVC.swift */; };
+		0416E0D220503DCF00CF1041 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416E0D120503DCF00CF1041 /* DemoURLs.swift */; };
 		048DCA5B204C6C940041693A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA5A204C6C940041693A /* AppDelegate.swift */; };
 		048DCA60204C6C940041693A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048DCA5E204C6C940041693A /* Main.storyboard */; };
 		048DCA62204C6C940041693A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DCA61204C6C940041693A /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0416E0CF20503BC800CF1041 /* CassiniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniVC.swift; sourceTree = "<group>"; };
+		0416E0D120503DCF00CF1041 /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 		048DCA57204C6C940041693A /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048DCA5A204C6C940041693A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048DCA5F204C6C940041693A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				048DCA6D204C6D930041693A /* ImageVC.swift */,
 				048DCA6F204C72320041693A /* canyon.jpg */,
 				048DCA66204C6C940041693A /* Info.plist */,
+				0416E0CF20503BC800CF1041 /* CassiniVC.swift */,
+				0416E0D120503DCF00CF1041 /* DemoURLs.swift */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0416E0D220503DCF00CF1041 /* DemoURLs.swift in Sources */,
+				0416E0D020503BC800CF1041 /* CassiniVC.swift in Sources */,
 				048DCA6E204C6D930041693A /* ImageVC.swift in Sources */,
 				048DCA5B204C6C940041693A /* AppDelegate.swift in Sources */,
 			);
